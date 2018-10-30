@@ -1,0 +1,14 @@
+.logo{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 20px 0;
+}
+
+.forgot-password{
+    text-align: right;
+}
+
+.register-button{
+    cursor: pointer;
+}
