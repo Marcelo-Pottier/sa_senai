@@ -17,12 +17,52 @@
     <script src="assets/js/global.js"></script>
 </head>
 <body>
-    <div class="fundo-barra">  
-        <div class="barrinha">
-            <div class="imagem-logo"></div>    
+    <?php include 'imports/fullpage-menu/fullpage-menu.php' ?>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <div class="row">
+                    <h1 class="titulo-vitrine">LOREM IPSUM DOLOR SIT AMET</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget venenatis augue.</p>
+                        <button class="btn btn-outline-primary">Lorem Ipsum</button>
+                    </div>
+                    <div class="col">
+                        <h3>Lorem Ipsum</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget venenatis augue.</p>
+                        <button class="btn btn-outline-primary">Lorem Ipsum</button>
+                    </div>
+                </div>
+            </div>
+            <img src="assets/img/vitrine_index.jpeg" width="auto" height="86.3%" alt="">
         </div>
-        <button type="button" class="btn btn-primary">Login</button>
-        <h1 class="text-center">Agilidade para seu estabelecimento! </h1> 
-      </div>
+        <div class="row">
+            <div class="col">
+                <h1 class="text-center">
+                    Lorem Ipsum Dolor Sit
+                </h1>
+                <div class="row">
+                <div class="col">
+                    <p class="text-justify p-assets">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac justo urna. Maecenas et elit et augue mollis porttitor. Nullam tempor non nisi nec porttitor.
+                    </p>
+                </div>
+                <div class="col">
+                    <p class="text-justify p-assets">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac justo urna. Maecenas et elit et augue mollis porttitor. Nullam tempor non nisi nec porttitor. Morbi quis aliquet nunc.
+                    </p>
+                </div>
+                <div class="col">
+                    <p class="text-text p-assets">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac justo urna. Maecenas et elit et augue mollis porttitor.
+                    </p>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>

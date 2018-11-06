@@ -1,26 +1,9 @@
-.fundo-barra{
-   background-color: aliceblue;
-   height: 500px;
-   width: 100%; 
+.titulo-vitrine{
+    font-size: 50px;
+    padding-right: 20%; 
+    margin: 100px 150px 100px 20px;
 }
-.barrinha{
-    background-color: bisque;
-    height: 30px;
-    width: 100%;
-    margin: 0% auto;
-    padding: 1px;
-}
-.imagem-logo{
-    width: 100px;
-    height: 100px;
-    background-color: coral;
-    position: relative;
-    left: 250px;
-    top: 40%;
-}
-.btn{
-    position: relative;
-    top: 10px;
-    left: 90%;
-    bottom: 0px;
+
+.p-assets{
+    padding: 0 30%
 }
