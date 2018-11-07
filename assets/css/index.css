@@ -3,7 +3,28 @@
     padding-right: 20%; 
     margin: 100px 150px 100px 20px;
 }
-
+.p-baixo{
+    color: white;
+}
 .p-assets{
-    padding: 0 30%
+    padding: 0 30%; 
+}
+.titulo-baixo{
+    color: white;
+}
+.tamanho-img{
+    height: 100px;
+    width: 100px;
+}
+.oi{
+    margin: 5%;
+}
+.container-baixo{
+    background-color: black;
+}
+.teste{
+    height: 330px;
+    width: 865px;
+    margin-top: -0px;
+    box-sizing: border-box;
 }

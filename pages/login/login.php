@@ -24,9 +24,9 @@
             <div class="col-sm-12 col-md-4"></div>
             <div class="col-sm-12 col-md-4">
                 <center>
-                    <div class="logo"></div>
+                    <div class="logo bg-primary"></div>
                 </center>
-                <div class="card transparencia">
+                <div class="card">
                     <div class="card-body">
                         <form action="../dashboard/dashboard.php">
                             <div class="form-group">
@@ -43,12 +43,12 @@
                                     Lembrar Senha
                                 </label>
                             </div>
-                            <button type="submit" class="btn btn-outline-success btn-block">Entrar</button>
-                            <center class="forgot-password" ><a href="#">Esqueceu a senha?</a></center>
+                            <button type="submit" class="btn btn-primary text-rig">Entrar</button>
+                            <a class="forgot-password" href="#">Esqueceu a senha?</a>
                         </form>
                     </div>
                     <a href="../register/register.php">
-                        <div class="card-footer text-center register-button bg-primary dont">
+                        <div class="card-footer text-center register-button">
                             <h5>Ainda não possui uma conta?</h5>
                         </div>
                     </a>

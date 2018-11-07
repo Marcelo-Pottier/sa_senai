@@ -18,18 +18,20 @@
 </head>
 <body>
     <div class="container">
-    <div class="logo"></div>
         <div class="row">
             <div class="col">
+                <center>
+                    <div class="logo bg-primary"></div>
+                    <h3>
+                        <small class="text-muted">Easy Commands</small>
+                    </h3>
+                </center>
             </div>
         </div>
         <div class="row">
             <div class="col-sm-12 col-md-4"></div>
             <div class="col-sm-12 col-md-4">
-                <div class="card transparencia">
-                    <div class="card-header title text-center">
-                        <h2 >Easy Commands</h2>
-                    </div>
+                <div class="card">
                     <div class="card-body">
                         <form>
                             <div class="form-group">
@@ -39,22 +41,13 @@
                             <div class="form-group">
                                 <label for="user">Endereço de email</label>
                                 <input type="email" class="form-control" required id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-                                <small id="emailHelp" class="form-text letra">Nós nunca vamos compartilhar seu e-mail com mais ninguém.</small>
+                                <small id="emailHelp" class="form-text text-muted">Nós nunca vamos compartilhar seu e-mail com mais ninguém.</small>
                             </div>
                             <div class="form-group">
                                     <label for="social">Razão social</label>
                                     <input type="text" class="form-control" required id="exampleInputSocial"> 
                             </div>
-                            <div class="form-group">
-                                <label for="password">Senha</label>
-                                <input type="password" class="form-control" required id="exampleInputPassword1" placeholder="Senha">
-                            </div>
-                            
-                            <div class="form-group">
-                                <label for="confpassword">Confirmar Senha</label>
-                                <input type="password" class="form-control" required id="exampleInputPassword2" placeholder="Confirmar senha">
-                            </div>
-                            <div class="dividerText letra">Endereço</div>
+                            <div class="dividerText">Endereco</div>
                             <div class="divider"></div>
                             <div class="form-group">
                                     <label for="inputCountry">País</label>
@@ -90,6 +83,16 @@
                                     <input type="number" class="form-control" required id="exampleInputNumber" > 
                             </div>  
                             <div class="divider"></div>  
+                            <div class="form-group">
+                                <label for="password">Senha</label>
+                                <input type="password" class="form-control" required id="exampleInputPassword1" placeholder="Senha">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="confpassword">Confirmar Senha</label>
+                                <input type="password" class="form-control" required id="exampleInputPassword2" placeholder="Confirmar senha">
+                            </div>
+
                             <div class="form-group form-check">
                                 <input type="checkbox" class="form-check-input" required id="exampleCheck1">
                                 <label class="form-check-label" for="exampleCheck1">Aceito e concordo com os termos ditos no site</label>

@@ -22,45 +22,55 @@
         <div class="row">
             <div class="col">
                 <div class="row">
-                    <h1 class="titulo-vitrine">LOREM IPSUM DOLOR SIT AMET</h1>
+                    <h1 class="titulo-vitrine">A melhor solucao para agilizar seu estabelecimento!</h1>
                 </div>
                 <div class="row">
                     <div class="col">
-                        <h3>Lorem Ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget venenatis augue.</p>
-                        <button class="btn btn-outline-primary">Lorem Ipsum</button>
+                        <h3>Entre</h3>
+                        <p>Já tem um login e quer administrar seu estabelecimento?</p>
+                        <button class="btn btn-outline-primary">Entre</button>
                     </div>
                     <div class="col">
-                        <h3>Lorem Ipsum</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget venenatis augue.</p>
-                        <button class="btn btn-outline-primary">Lorem Ipsum</button>
+                        <h3>Cadastre-se</h3>
+                        <p>Crie uma conta agora e agilize o seu negocio imediatamente.</p>
+                        <button class="btn btn-outline-primary">Cadastre-se</button>
                     </div>
                 </div>
             </div>
             <img src="assets/img/vitrine_index.jpeg" width="auto" height="86.3%" alt="">
         </div>
-        <div class="row">
+    </div>
+    <div class="container-fluid container-baixo">
+        <div class="container-fluid teste">
+        <div class="row oi">
             <div class="col">
-                <h1 class="text-center">
-                    Lorem Ipsum Dolor Sit
+                <h1 class="text-center titulo-baixo">
+                    Seja o mais rapido de todos em apenas um passo.
                 </h1>
                 <div class="row">
                 <div class="col">
-                    <p class="text-justify p-assets">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac justo urna. Maecenas et elit et augue mollis porttitor. Nullam tempor non nisi nec porttitor.
+                    <img src="assets/img/cp.png" class="tamanho-img" alt="...">
+                    <h4 class="p-baixo">Agilize!</h4>
+                    <p class="text-justify p-baixo">
+                    Lorem ipsum dolor sit amet, consecaecenas et elitr non nisi nec porttitor.
                     </p>
                 </div>
                 <div class="col">
-                    <p class="text-justify p-assets">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac justo urna. Maecenas et elit et augue mollis porttitor. Nullam tempor non nisi nec porttitor. Morbi quis aliquet nunc.
+                    <img src="assets/img/cp.png" class="tamanho-img" alt="...">
+                    <h4 class="p-baixo">Ganhe visibilidade!</h4>
+                    <p class="text-justify p-baixo">
+                    Lorem ipsum dm tempor non nisi nec porttitor. Morbi quis aliquet nunc.
                     </p>
                 </div>
                 <div class="col">
-                    <p class="text-text p-assets">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc ac justo urna. Maecenas et elit et augue mollis porttitor.
+                    <img src="assets/img/cp.png" class="tamanho-img" alt="...">
+                    <h4 class="p-baixo">Ganhe clientes!</h4>
+                    <p class="text-justify p-baixo">
+                    Lorem ipsum dolor sit amet, ue mollis porttitor.
                     </p>
                 </div>
                 </div>
+                </div> 
             </div>
         </div>
     </div>
