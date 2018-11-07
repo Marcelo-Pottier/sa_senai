@@ -20,13 +20,13 @@
   font-family: verdana;
   font-size: 12px;
   font-weight: 200;
-  background-color: #007bff;
   position: fixed;
   top: 0px;
   padding-left: 0px;
   height: 100%;
   width: 17%;
   color: #e1ffff;
+  border: 1px solid black;
 }
 
 .nav-side-menu .brand {
