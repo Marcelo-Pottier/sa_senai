@@ -1,8 +1,42 @@
 .divider {
-    height: 1px;
+    height: 6px;
     width:100%;
     display:block; /* for use on default inline elements like span */
     margin: 9px 0;
     overflow: hidden;
-    background-color: #3c95b8;
+    background-color: #007bff;
   }
+
+  body {
+    background-image: url("../../assets/img/register_food.jpg");
+    background-size: 159%;
+  }
+
+.transparencia {
+  background-color: #000000bf;
+  color: white;
+}
+
+.letra{
+  color: #007bff;
+}
+
+.letra2 {
+color: #007bff;
+font-weight: 200;
+}
+
+small{
+  font-size: 70%;
+  font-weight: 400;
+
+}
+
+.logo{
+background-image: url("../../assets/img/pp.jpg");
+background-size: 100%;
+}
+
+.title{
+  background-color: #007bffbf;
+}
