@@ -28,25 +28,30 @@
                     <div class="col">
                         <h3>Entre</h3>
                         <p>Já tem um login e quer administrar seu estabelecimento?</p>
-                        <button class="btn btn-outline-primary">Entre</button>
+                        <a class="btn btn-outline-primary" href="pages/login/login.php">Entre</a>
                     </div>
                     <div class="col">
                         <h3>Cadastre-se</h3>
                         <p>Crie uma conta agora e agilize o seu negocio imediatamente.</p>
-                        <button class="btn btn-outline-primary">Cadastre-se</button>
+                        <a class="btn btn-outline-primary" href="pages/register/register.php">Cadastre-se</a>
                     </div>
                 </div>
             </div>
-            <img src="assets/img/vitrine_index.jpeg" width="auto" height="86.3%" alt="">
+            <img src="assets/img/vitrine_index.jpeg" width="auto" height="94.3%" alt="">
         </div>
     </div>
-    <div class="container-fluid container-baixo">
-        <div class="container-fluid teste">
-        <div class="row oi">
+    <br>
+    <br>    
+    <div class="container-fluid bg-black">
+        <div class="container-fluid bg-baixo">
+        <div class="row">
             <div class="col">
+                <br>
                 <h1 class="text-center titulo-baixo">
                     Seja o mais rapido de todos em apenas um passo.
                 </h1>
+                <br>
+                <br>
                 <div class="row">
                 <div class="col">
                     <img src="assets/img/cp.png" class="tamanho-img" alt="...">
@@ -63,7 +68,7 @@
                     </p>
                 </div>
                 <div class="col">
-                    <img src="assets/img/cp.png" class="tamanho-img" alt="...">
+                    <img src="assets/img/cp.png" class="img-containerbaixo" alt="...">
                     <h4 class="p-baixo">Ganhe clientes!</h4>
                     <p class="text-justify p-baixo">
                     Lorem ipsum dolor sit amet, ue mollis porttitor.

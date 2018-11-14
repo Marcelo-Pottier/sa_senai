@@ -1,26 +1,18 @@
-<link rel="stylesheet" type="text/css" href="./imports/fullpage-menu/fullpage-menu.css">
-
-<div class="demo">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <div class="navbar">
-                    <nav class="menu" style="height: 949px;">
-                        <div class="nav-layer" style="width: 4283.46px; height: 4283.46px; margin-top: -2141.73px; margin-left: -2141.73px;"></div>
-                        <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Contact</a></li>
-                        </ul>
-                    </nav>
-                    <a class="nav-toggle">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </a>
-                </div>
-            </div>
+<nav class="navbar navbar-expand-lg navbar-dark bg-black">
+  <a class="navbar-brand" href="pages/login/login.php">Login</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="pages/register/register.php">Nao possui uma conta? <span class="sr-only">(current)</span></a>
+      </li>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
         </div>
-    </div>
-</div>
+    </ul>
+</nav>

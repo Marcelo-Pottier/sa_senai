@@ -59,8 +59,7 @@
                             <div class="form-group">
                                     <label for="inputCountry">País</label>
                                     <select id="inputCountry" class="form-control" required>
-                                    <option selected>Escolha...</option>
-                                    <option>...</option>
+                                        <option>Brasil</option>
                                     </select>
                             </div>
                             <div class="form-group">
