@@ -21,13 +21,11 @@
 </head>
 
 <body>
-    <?php include '../../imports/sidebar/sidebar.php'; ?>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-1"></div>
-            <div class="col-sm-12 col-md-11">
-                teste
-            </div>
+    <div class="wrapper">
+        <?php include '../../imports/sidebar/sidebar.php'; ?>
+
+        <div class="content">
+            teste
         </div>
     </div>
 </body>
