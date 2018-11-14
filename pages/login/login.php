@@ -31,11 +31,11 @@
                         <form action="../dashboard/dashboard.php">
                             <div class="form-group">
                                 <label for="user">Usuário</label>
-                                <input type="email" class="form-control" id="user" aria-describedby="emailHelp">
+                                <input type="email" class="form-control" id="user" aria-describedby="emailHelp" required>
                             </div>
                             <div class="form-group">
                                 <label for="password">Senha</label>
-                                <input type="password" class="form-control" id="exampleInputPassword1">
+                                <input type="password" class="form-control" id="exampleInputPassword1" required minlength="6">
                             </div>
                             <div class="form-group form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">

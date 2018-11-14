@@ -22,6 +22,7 @@
 
 <body>
     <div class="wrapper">
+        <!-- Sidebar -->
         <?php include '../../imports/sidebar/sidebar.php'; ?>
 
         <div class="content">
