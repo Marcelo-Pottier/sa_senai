@@ -1,0 +1,61 @@
+.transparencia {
+    background-color: #000000bf;
+    color: white;
+  }
+
+  body {
+    background-image: url("../../../assets/img/comanda.jpg");
+    background-size: 100%;
+}
+
+.divider {
+    height: 6px;
+    width:100%;
+    display:block; /* for use on default inline elements like span */
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #007bff;
+  }
+
+input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0;
+    box-shadow: none;
+    border: none;
+    
+
+  }
+.pedido-label{
+width: 100%;
+
+}
+
+  /*Input number*/
+
+@media ( max-width: 585px ) {
+  .input-group span.input-group-btn,.input-group input,.input-group button{
+      display: block;
+      width: 100%;
+      border-radius: 0;
+      margin: 0;
+  }
+  .input-group {
+      position: relative;   
+  }
+  .input-group span.data-up{
+      position: absolute;
+      top: 0;
+  }
+  .input-group span.data-dwn{
+      position: absolute;
+      bottom: 0;
+  }
+  .form-control.text-center {
+      margin: 34px 0;
+  }
+  .input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group{
+      margin-left:0;
+  }
+
+}
+  

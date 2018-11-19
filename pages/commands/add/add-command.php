@@ -24,18 +24,55 @@
         <div class="row">
             <div class="col-sm-12 col-md-4"></div>
             <div class="col-sm-12 col-md-4">
-                <div class="card">
-                    <div class="card-header">Novo Pedido</div>
+                <div class="card transparencia">
+                    <div class="card-header bg-primary">Novo Pedido</div>
                     <div class="card-body">
+                        <form>
                         <div class="row">
-                            <div class="col">
-                                <button onClick="sub()">-</button>
-                            </div>
-                            <div class="col">Inteiro</div>
-                            <div class="col">
-                                <button onClick="sum()">+</button>
-                            </div>
+                           <label class="text-center pedido-label"> INTEIRA </label>
+                            <div class="input-group number-spinner">
+                                <span class="input-group-btn data-dwn">
+                                    <button class="btn btn-primary" data-dir="dwn">-</button>
+                                </span>
+                                <input type="text" class="form-control text-center" value="0" min="0" max="40">
+                                <span class="input-group-btn data-up">
+                                    <button class="btn btn-primary" data-dir="up">+</span></button>
+                                </span>
+                            </div>          
                         </div>
+                        <div class="divider"></div>
+                        <div class="row">
+                           <label class="text-center pedido-label"> INTEIRA </label>
+                            <div class="input-group number-spinner">
+                                <span class="input-group-btn data-dwn">
+                                    <button class="btn btn-primary" data-dir="dwn">-</button>
+                                </span>
+                                <input type="text" class="form-control text-center" value="0" min="0" max="40">
+                                <span class="input-group-btn data-up">
+                                    <button class="btn btn-primary " data-dir="up">+</span></button>
+                                </span>
+                            </div>          
+                        </div>
+                        <div class="divider"></div>
+                        <div class="row">
+                           <label class="text-center pedido-label"> INTEIRA </label>
+                            <div class="input-group number-spinner">
+                                <span class="input-group-btn data-dwn">
+                                    <button class="btn btn-primary" data-dir="dwn">-</button>
+                                </span>
+                                <input type="text" class="form-control text-center" value="0" min="0" max="40">
+                                <span class="input-group-btn data-up">
+                                    <button class="btn btn-primary " data-dir="up">+</span></button>
+                                </span>
+                            </div>          
+                        </div>
+                        <div class="divider"></div>
+                        <div class="form-group">
+                        <label for="inputDrink" class="text-center pedido-label">Bebidas</label>
+                                    <select id="inputDrink" class="form-control" required>
+                                    <option selected>Escolha...</option>
+                                        <option>Coca-Cola</option>
+                                    </select>
                     </div>
                 </div>
             </div>
