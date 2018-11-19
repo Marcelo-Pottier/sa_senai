@@ -33,7 +33,7 @@
                     <div class="col">
                         <h3>Cadastre-se</h3>
                         <p>Crie uma conta agora e agilize o seu negocio imediatamente.</p>
-                        <a class="btn btn-outline-primary" href="pages/register/register.php">Cadastre-se</a>
+                        <a class="btn btn-outline-primary" href="pages/users/add/add-user.php">Cadastre-se</a>
                     </div>
                 </div>
             </div>

@@ -47,7 +47,7 @@
                             <center class="forgot-password" ><a href="#">Esqueceu a senha?</a></center>
                         </form>
                     </div>
-                    <a href="../register/register.php">
+                    <a href="../users/add/add-user.php">
                         <div class="card-footer text-center register-button bg-primary dont">
                             <h5>Ainda não possui uma conta?</h5>
                         </div>
