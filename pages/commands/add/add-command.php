@@ -85,6 +85,7 @@
                                         <option>Vinho Taça</option>
                                     </select>
                     </div>
+                    <a href="../../dashboard/dashboard.php" class="btn btn-outline-success float-right">Emitir</a>
                 </div>
             </div>
             <div class="col-sm-12 col-md-4"></div>

@@ -47,12 +47,13 @@
                             </div>
                             <div class="form-group">
                                 <label for="password">Senha</label>
-                                <input type="password" class="form-control" required id="exampleInputPassword1" placeholder="Senha">
+                                <input type="password" class="form-control" required id="senha1" placeholder="Senha">
                             </div>
                             
                             <div class="form-group">
                                 <label for="confpassword">Confirmar Senha</label>
-                                <input type="password" class="form-control" required id="exampleInputPassword2" placeholder="Confirmar senha">
+                                <input type="password" class="form-control" required id="senha2"  placeholder="Confirmar senha">
+                                <p id="msgerro"> </p>
                             </div>
                             <div class="dividerText letra">Endereço</div>
                             <div class="divider"></div>
@@ -93,7 +94,7 @@
                                 <input type="checkbox" class="form-check-input" required id="exampleCheck1">
                                 <label class="form-check-label" for="exampleCheck1">Aceito e concordo com os termos ditos no site</label>
                             </div>
-                            <button type="submit" class="btn btn-outline-primary float-right">Cadastre-se</button>
+                            <button type="submit" onclick="clicou()" class="btn btn-outline-primary float-right">Cadastre-se</button>
                             <a href="../../login/login.php" class="btn btn-outline-danger float-left">Voltar</a>
                         </form>                       
                     </div>

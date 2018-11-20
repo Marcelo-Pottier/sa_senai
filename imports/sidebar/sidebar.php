@@ -55,7 +55,7 @@
 
     <ul class="list-unstyled CTAs">
         <li>
-            <a href="./pages/login/login.php" class="download">Sair</a>
+            <a href="../login/login.php" class="download">Sair</a>
         </li>
     </ul>
 </nav>
