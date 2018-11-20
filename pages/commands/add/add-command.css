@@ -17,14 +17,6 @@
     background-color: #007bff;
   }
 
-input::-webkit-outer-spin-button,input::-webkit-inner-spin-button{
-    -webkit-appearance: none;
-    margin: 0;
-    box-shadow: none;
-    border: none;
-    
-
-  }
 .pedido-label{
 width: 100%;
 

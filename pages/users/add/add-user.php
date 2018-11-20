@@ -9,7 +9,7 @@
         <link rel="stylesheet" type="text/css" href="../../../frameworks/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="../../../frameworks/bootstrap/css/bootstrap-grid.min.css">
         <link rel="stylesheet" type="text/css" media="screen" href="../../../assets/css/global.css" />
-        <link rel="stylesheet" type="text/css" media="screen" href="register.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="add-user.css" />
         
         <!-- Script -->
         <script src="../../../frameworks/jQuery/jquery-3.3.1.min.js"></script>
@@ -94,7 +94,7 @@
                                 <label class="form-check-label" for="exampleCheck1">Aceito e concordo com os termos ditos no site</label>
                             </div>
                             <button type="submit" class="btn btn-outline-primary float-right">Cadastre-se</button>
-                            <a href="../login/login.php" class="btn btn-outline-danger float-left">Voltar</a>
+                            <a href="../../login/login.php" class="btn btn-outline-danger float-left">Voltar</a>
                         </form>                       
                     </div>
                 </div>
