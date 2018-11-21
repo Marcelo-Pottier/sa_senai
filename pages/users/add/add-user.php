@@ -9,7 +9,7 @@
         <link rel="stylesheet" type="text/css" href="../../../frameworks/bootstrap/css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="../../../frameworks/bootstrap/css/bootstrap-grid.min.css">
         <link rel="stylesheet" type="text/css" media="screen" href="../../../assets/css/global.css" />
-        <link rel="stylesheet" type="text/css" media="screen" href="add-user.css" />
+        <link rel="stylesheet" type="text/css" media="screen" href="register.css" />
         
         <!-- Script -->
         <script src="../../../frameworks/jQuery/jquery-3.3.1.min.js"></script>
@@ -47,13 +47,12 @@
                             </div>
                             <div class="form-group">
                                 <label for="password">Senha</label>
-                                <input type="password" class="form-control" required id="senha1" placeholder="Senha">
+                                <input type="password" class="form-control" required id="exampleInputPassword1" placeholder="Senha">
                             </div>
                             
                             <div class="form-group">
                                 <label for="confpassword">Confirmar Senha</label>
-                                <input type="password" class="form-control" required id="senha2"  placeholder="Confirmar senha">
-                                <p id="msgerro"> </p>
+                                <input type="password" class="form-control" required id="exampleInputPassword2" placeholder="Confirmar senha">
                             </div>
                             <div class="dividerText letra">Endereço</div>
                             <div class="divider"></div>
@@ -94,8 +93,8 @@
                                 <input type="checkbox" class="form-check-input" required id="exampleCheck1">
                                 <label class="form-check-label" for="exampleCheck1">Aceito e concordo com os termos ditos no site</label>
                             </div>
-                            <button type="submit" onclick="clicou()" class="btn btn-outline-primary float-right">Cadastre-se</button>
-                            <a href="../../login/login.php" class="btn btn-outline-danger float-left">Voltar</a>
+                            <button type="submit" class="btn btn-outline-primary float-right">Cadastre-se</button>
+                            <a href="../login/login.php" class="btn btn-outline-danger float-left">Voltar</a>
                         </form>                       
                     </div>
                 </div>

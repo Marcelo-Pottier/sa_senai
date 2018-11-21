@@ -1,3 +1,18 @@
+qtd = 0;
+
+function sum(){
+    qtd++;
+    document.getElementById("quantidade").innerHTML = qtd;
+    console.log(qtd);
+
+}
+
+function sub() {
+    if(qtd > 0) qtd--;
+    document.getElementById("quantidade").innerHTML = qtd;
+    console.log(qtd);
+}
+
 
 /*Input number*/
 $(function() {

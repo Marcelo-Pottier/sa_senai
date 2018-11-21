@@ -27,8 +27,9 @@
                 <div class="card transparencia">
                     <div class="card-header bg-primary">Novo Pedido</div>
                     <div class="card-body">
+                        <form>
                         <div class="row">
-                           <label class="text-center pedido-label"> Inteira </label>
+                           <label class="text-center pedido-label"> INTEIRA </label>
                             <div class="input-group number-spinner">
                                 <span class="input-group-btn data-dwn">
                                     <button class="btn btn-primary" data-dir="dwn">-</button>
@@ -41,7 +42,7 @@
                         </div>
                         <div class="divider"></div>
                         <div class="row">
-                           <label class="text-center pedido-label"> Meia </label>
+                           <label class="text-center pedido-label"> INTEIRA </label>
                             <div class="input-group number-spinner">
                                 <span class="input-group-btn data-dwn">
                                     <button class="btn btn-primary" data-dir="dwn">-</button>
@@ -54,7 +55,7 @@
                         </div>
                         <div class="divider"></div>
                         <div class="row">
-                           <label class="text-center pedido-label"> Infantil </label>
+                           <label class="text-center pedido-label"> INTEIRA </label>
                             <div class="input-group number-spinner">
                                 <span class="input-group-btn data-dwn">
                                     <button class="btn btn-primary" data-dir="dwn">-</button>
@@ -70,22 +71,9 @@
                         <label for="inputDrink" class="text-center pedido-label">Bebidas</label>
                                     <select id="inputDrink" class="form-control" required>
                                     <option selected>Escolha...</option>
-                                        <option>Refri 2LT</option>
-                                        <option>Refri 1LT</option>
-                                        <option>Refri 600 ML</option>
-                                        <option>Refri LTA</option>
-                                        <option>Refri GRF 600ML</option>
-                                        <option>Aquarius Fresh</option>
-                                        <option>Água</option>
-                                        <option>Suco</option>
-                                        <option>Cerveja 600 ML</option>
-                                        <option>Cerveja LTA</option>
-                                        <option>Cerveja Preta</option>
-                                        <option>Vinho Garrafa</option>
-                                        <option>Vinho Taça</option>
+                                        <option>Coca-Cola</option>
                                     </select>
                     </div>
-                    <a href="../../dashboard/dashboard.php" class="btn btn-outline-success float-right">Emitir</a>
                 </div>
             </div>
             <div class="col-sm-12 col-md-4"></div>
